@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><!-- 所有的属性都不是必须的 -->
+<head>
+<meta charset="UTF-8">
+<meta keywords="你猜哈哈哈"><!-- 可以定义关键词 便于搜索引擎检索 没有也可以   -->
+<link rel="stylesheet" type="text/css" href="css/css-1.css"> <!-- 添加css -->
+<title>HTML语言</title>
+</head>
+<body bgcolor="ffffff"><!-- 不写bgcolor 默认白色 -->
+	<p id="p1" align="center">hello world</p><!-- 段落 --><!-- center标签 居中 但：格式可以交给CSS -->
+	<a href="http://www.baidu.com" target="">百度一下，你就知道</a><!-- target：新窗口打开页面 -->
+	<br><!-- 换行 -->
+	<a href="../resource/Why do we fall_CN.jpg">文件下载</a> <!--  ../ 上一级目录 不加的话是同级目录 -->
+	<br>
+	<!-- 显示图片 -->  <!-- 地图可以分瓦片显示 -->
+	<img src="../resource/Why do we fall_CN.jpg" width="300px" height="200px"/><!-- 如果 高或宽只给一个的话 同比例缩放 -->
+	<br>
+	<input type="text" size="30" value="默认值"> <!-- 输入框 :可以写三十个字符 value:值-->
+	<br>
+	<input type="text" size="30" placeholder="请输入查询条件"> <!-- 输入框 :可以写三十个字符 placeholder:占位符-->
+	<br>
+	<input type="button" value="点我点我点我">
+	<br>
+	<table border="1"><!-- 表 --> <!-- border:边框 -->
+		<tr><!-- 行 -->
+			<td align="center">第1列</td><!-- 列 -->
+			<td align="center">第2列</td>
+		</tr>
+		<tr><!-- 行 -->
+			<td>第1行第1列</td><!-- 列 -->
+			<td>第1行第2列</td>
+		</tr>
+		<tr><!-- 行 -->
+			<td>第2行第1列</td><!-- 列 -->
+			<td>第2行第2列</td>
+		</tr>
+	</table>
+	<br>
+		<ul><!-- 列表 可以做菜单-->
+				<li><input id='search_text' type='text' placeholder='请输入查询条件'></li>
+				<li><a href='#'>搜索</a></li>
+			</ul>
+	<br>
+	<form method="post" action=""><!-- 表单提交 --> <!-- post与get:get有长度限制 -->
+	<table >
+		<tr>
+			<td>用户名:</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>密码:</td>
+			<td><input type="password"></td>
+		</tr>
+		<tr>
+			<td><input type="submit"></td> <!-- submit:提交到action指定的页面 -->
+		</tr>
+	</table>
+	</form>	
+	<br>
+	<!-- div标签：类似一个容器 可以用来定义页面布局 --> <!-- DIV+CSS --> <!-- html5:canvas -->
+	<div>
+		<input type="text" >
+	</div>
+</body>
+</html>

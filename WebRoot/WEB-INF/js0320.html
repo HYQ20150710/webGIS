@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript</title>
+</head>
+<!-- 调用JS函数 -->
+<!-- <body onload="onload()">
+
+</body> -->
+<!-- 交互 -->
+<body>
+	<input type="text" id="condition" size="30" placeholder="请输入查询条件">
+	<input type="button" value="搜索" onclick="onSearch()">
+</body>
+</html>
+<!-- 为了提高用户体验 把html放在前面 JS放后面 -->
+<script language="javascript">
+	function onload() {
+		alert("OK")
+	}
+
+	function onSearch() {
+		var obj=document.getElementById("condition");
+		var condition=obj.value;
+		var add=sum(1,2);
+		obj.value=add;
+	}
+	
+	function sum(a,b) {
+		return a+b
+	}
+</script>
